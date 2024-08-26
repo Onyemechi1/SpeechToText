@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech-to-Text Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Speech-to-Text Translator</h1>
+  </header>
+  <main>
+    <section class="translator">
+      <label for="translator-to">Translator To:</label>
+      <select id="translator-to">
+        <option value="Yoruba">Yoruba</option>
+        <option value="Igbo">Igbo</option>
+        <option value="Hausa">Hausa</option>
+      </select>
+      <textarea id="text-box" placeholder="Insert text here"></textarea>
+      <button id="record-btn"><img src="record-icon.png" alt="Record Audio"><i class="fa-solid fa-records"></i></button>
+      <button id="upload-btn">Upload File</button>
+      <button id="translate-btn">Translate</button>
+    </section>
+    <section class="translation-results">
+      <button id="download-btn">Download Translation</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Speech-to-Text Translator. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
