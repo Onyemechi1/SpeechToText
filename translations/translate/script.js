@@ -71,7 +71,7 @@ async function translateText() {
 }
 
 async function translateTextAPI(text, targetLanguage) {
-  const apiKey = "AIzaSyDf4yNULY4LJLVSvnMbqhGNTkwd4JUAL_0"; // Replace with your actual API key
+  const apiKey = "YOUR-API-KEY"; // Replace with your actual API key
   const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
 
   const response = await fetch(url, {
